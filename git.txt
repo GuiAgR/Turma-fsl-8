@@ -1,0 +1,19 @@
+- criar um repositorio no github
+- criar a pasta localmente 
+- inicializar um repositorio vazio: git init
+- alterar o nome da branch para main: git branch -M main
+- linkar o repositorio do github a nossa pasta: git remote add origin (url)
+- criar arquivos e pastas,realizar alterações etc
+- salvar as alterações: (ctrl + s)
+- adicionar as mudanças ao git com: git add .
+- criar o meu commit (comentario explicativo sobre as alterações realidas): git commit -m "comentario"
+- enviar as alterações locais para a origin no github: git push -u origin main
+- apos o primeiro so preciso enviar as alterações com: git push
+
+comandos mais utilizados:
+git init
+git branch -M main
+git remote add origin URL do repositorio
+git add .
+git commit -m "comentario"
+git push -u origin main / git push
